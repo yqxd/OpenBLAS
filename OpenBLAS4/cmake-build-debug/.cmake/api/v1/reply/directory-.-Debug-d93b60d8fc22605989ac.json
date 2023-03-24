@@ -1,0 +1,202 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 431,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 456,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 468,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 489,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 501,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 511,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 523,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 525,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 528,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libopenblas.a"
+			],
+			"targetId" : "openblas_static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/openblas",
+			"paths" : 
+			[
+				"cmake-build-debug/openblas_config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/openblas",
+			"paths" : 
+			[
+				"cmake-build-debug/generated/f77blas.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/openblas",
+			"paths" : 
+			[
+				"cmake-build-debug/generated/cblas.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/openblas",
+			"paths" : 
+			[
+				"lapack-netlib/LAPACKE/example/lapacke_example_aux.h",
+				"lapack-netlib/LAPACKE/include/lapack.h",
+				"lapack-netlib/LAPACKE/include/lapacke.h",
+				"lapack-netlib/LAPACKE/include/lapacke_config.h",
+				"lapack-netlib/LAPACKE/include/lapacke_mangling.h",
+				"lapack-netlib/LAPACKE/include/lapacke_utils.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/openblas/openblas",
+			"paths" : 
+			[
+				"cmake-build-debug/lapacke_mangling.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/openblas.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenBLAS",
+			"paths" : 
+			[
+				"cmake-build-debug/OpenBLASConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenBLAS",
+			"paths" : 
+			[
+				"cmake-build-debug/OpenBLASConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenBLAS",
+			"exportName" : "OpenBLASTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "openblas_static::@6890427a1f51a3e7e1df",
+					"index" : 15
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/cmake/OpenBLAS/OpenBLASTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

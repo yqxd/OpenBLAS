@@ -1,0 +1,253 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./CMakeFiles/c_abs.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./CMakeFiles/z_abs.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./CMakeFiles/openblas_get_config.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./CMakeFiles/openblas_get_parallel.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./memory.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./blas_server_win32.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./divtable.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./blas_l1_thread.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./xerbla.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./openblas_set_num_threads.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./openblas_error_handle.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./openblas_env.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./openblas_get_num_procs.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./openblas_get_num_threads.c.obj"
+		},
+		{
+			"path" : "driver/others/CMakeFiles/driver_others.dir/./parameter.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"driver/others/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -DHAVE_C11 -DMS_ABI -Wall -m64 -mavx2 -mavx -msse -msse2 -msse3 -mssse3 -msse4.1 -DF_INTERFACE_GFORT -DSMALL_MATRIX_OPT -DSMP_SERVER -DNO_WARMUP -DMAX_CPU_NUMBER=20 -DMAX_PARALLEL_NUMBER=1 -DNO_AFFINITY -DVERSION=\"\\\"0.3.21.dev\\\"\" -DBUILD_SINGLE -DBUILD_DOUBLE -DBUILD_COMPLEX -DBUILD_COMPLEX16 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "E:/OpenBLAS/OpenBLAS-develop"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/OpenBLAS/OpenBLAS-develop/cmake-build-debug"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"id" : "driver_others::@5262619ec8cb6d1b933c",
+	"name" : "driver_others",
+	"paths" : 
+	{
+		"build" : "driver/others",
+		"source" : "driver/others"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/driver/others/CMakeFiles/c_abs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/driver/others/CMakeFiles/z_abs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/driver/others/CMakeFiles/openblas_get_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/driver/others/CMakeFiles/openblas_get_parallel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/blas_server_win32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/divtable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/blas_l1_thread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/xerbla.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/openblas_set_num_threads.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/openblas_error_handle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/openblas_env.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/openblas_get_num_procs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/openblas_get_num_threads.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/others/parameter.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
